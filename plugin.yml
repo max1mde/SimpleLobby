@@ -1,0 +1,13 @@
+name: SimpleLobby
+version: 1.0
+main: dev.maximde.simplelobby.Main
+author: MaximDe
+
+commands:
+   simplelobby:
+   sl:
+   spawn:
+   l:
+   hub:
+   stuck:
+   lobby:
