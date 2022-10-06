@@ -25,7 +25,7 @@ simplelobby.cmd
 
 ## Config
 
-```css
+```java
 Config:
   TeleportOnJoin: true
   DisableBlockBreak: true
