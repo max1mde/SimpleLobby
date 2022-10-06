@@ -46,7 +46,7 @@ public class SimpleLobby extends JavaPlugin {
 	/**
 	 * Prefix color
 	 */
-	public final static String COLOR = "§b";
+	public final static String COLOR = "Â§b";
 	/**
 	 * Prefix
 	 */
@@ -97,15 +97,15 @@ public class SimpleLobby extends JavaPlugin {
 		Locations.setupFiles();
 		instance = this;
 		plugin = this;
-		registerEvents();
-		registerCommands();
-		setSettingsFromConfig();
-	    getServer().getConsoleSender().sendMessage("§6===>> "+name+" <<===");
-	    getServer().getConsoleSender().sendMessage("§6=====================");
-	    getServer().getConsoleSender().sendMessage("§6==Plugin by MaximDe==");
-	    getServer().getConsoleSender().sendMessage("§bhttps://discord.gg/gbqF32Qsv2");
-	    getServer().getConsoleSender().sendMessage("§bhttps://www.spigotmc.org/members/maximde.1620695/");
-	    getServer().getConsoleSender().sendMessage("§6=====================");
+	    	registerEvents();
+	    	registerCommands();
+	    	setSettingsFromConfig();
+	    	getServer().getConsoleSender().sendMessage("Â§6===>> "+name+" <<===");
+	    	getServer().getConsoleSender().sendMessage("Â§6=====================");
+	    	getServer().getConsoleSender().sendMessage("Â§6==Plugin by MaximDe==");
+	    	getServer().getConsoleSender().sendMessage("Â§bhttps://discord.gg/gbqF32Qsv2");
+	    	getServer().getConsoleSender().sendMessage("Â§bhttps://www.spigotmc.org/members/maximde.1620695/");
+	    	getServer().getConsoleSender().sendMessage("Â§6=====================");
 	}
 	
 	/**
@@ -170,14 +170,14 @@ public class SimpleLobby extends JavaPlugin {
 		Settings.isTeleportOnRespawn = cfg.getBoolean("Config.TeleportOnRespawn");
 		Settings.isBossbar = cfg.getBoolean("Config.BossBar");
 		//STRINGS
-		Settings.breakMessage = cfg.getString("Messages.BreakBlocksMessage").replace("&", "§");
-		Settings.placeMessage = cfg.getString("Messages.PlaceBlocksMessage").replace("&", "§");
-		Settings.hitMessage = cfg.getString("Messages.PlayerHitMessage").replace("&", "§");
-		Settings.prefix = cfg.getString("Messages.Prefix").replace("&", "§");
-		Settings.leaveMessage = cfg.getString("Messages.LeaveMessage").replace("&", "§");
-		Settings.joinMessage = cfg.getString("Messages.JoinMessage").replace("&", "§");
-		Settings.welcomeMessage = cfg.getString("Messages.WelcomeMessage").replace("&", "§");
-		Settings.teleportToSpawnMessage = cfg.getString("Messages.SpawnTeleportMessage").replace("&", "§");
+		Settings.breakMessage = cfg.getString("Messages.BreakBlocksMessage").replace("&", "Â§");
+		Settings.placeMessage = cfg.getString("Messages.PlaceBlocksMessage").replace("&", "Â§");
+		Settings.hitMessage = cfg.getString("Messages.PlayerHitMessage").replace("&", "Â§");
+		Settings.prefix = cfg.getString("Messages.Prefix").replace("&", "Â§");
+		Settings.leaveMessage = cfg.getString("Messages.LeaveMessage").replace("&", "Â§");
+		Settings.joinMessage = cfg.getString("Messages.JoinMessage").replace("&", "Â§");
+		Settings.welcomeMessage = cfg.getString("Messages.WelcomeMessage").replace("&", "Â§");
+		Settings.teleportToSpawnMessage = cfg.getString("Messages.SpawnTeleportMessage").replace("&", "Â§");
 		Settings.bossbarText = cfg.getString("Messages.BossBarText");
 		
 		/*
