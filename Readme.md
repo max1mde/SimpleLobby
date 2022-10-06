@@ -25,7 +25,7 @@ simplelobby.cmd
 
 ## Config
 
-```xml
+``xml
 Config:
   TeleportOnJoin: true
   DisableBlockBreak: true
@@ -46,7 +46,7 @@ Messages:
   PlayerHitMessage: '&cPVP is here disabled!'
   Prefix: '&bSimpleLobby '
   SpawnTeleportMessage: '&aTeleported to spawn!'
-  ```
+  ``
 
 - [SpigotMC](https://www.spigotmc.org/resources/simplelobby-1-8-x.105614/)
 - [Java Doc](https://cozy-faun-fb7369.netlify.app)
