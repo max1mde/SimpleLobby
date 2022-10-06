@@ -1,4 +1,4 @@
-![SimpleLobby](https://github.com/JavaDevMC/images/blob/main/SimpleLobby.png?raw=true))
+![SimpleLobby](https://github.com/JavaDevMC/images/blob/main/SimpleLobby.png?raw=true)
 
 SimpleLobby is a easy to setup lobby plugin for the minecraft version 1.8.
 
