@@ -51,5 +51,6 @@ Messages:
 
 - [SpigotMC](https://www.spigotmc.org/resources/simplelobby-1-8-x.105614/)
 - [Java Doc](https://cozy-faun-fb7369.netlify.app)
+- [MaximClient Discord]([https://cozy-faun-fb7369.netlify.app](https://discord.gg/gbqF32Qsv2))
 
 You can use my code, but please give credits!
