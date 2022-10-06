@@ -1,6 +1,6 @@
 # SimpleLobby
 
-https://proxy.spigotmc.org/985c3ca59db3aff8f2a200aec953bf2b1bb3468d?url=https%3A%2F%2Fgithub.com%2FJavaDevMC%2Fimages%2Fblob%2Fmain%2FUnbeasdnannt-5.png%3Fraw%3Dtrue
+! [SimpleLobby] (https://proxy.spigotmc.org/985c3ca59db3aff8f2a200aec953bf2b1bb3468d?url=https%3A%2F%2Fgithub.com%2FJavaDevMC%2Fimages%2Fblob%2Fmain%2FUnbeasdnannt-5.png%3Fraw%3Dtrue)
 
 SimpleLobby is a easy to setup lobby plugin for the minecraft version 1.8.
 
