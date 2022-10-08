@@ -64,6 +64,11 @@ Scoreboard:
   line8: ''
   line9: ''
   line10: '&7yourserver.net'
+Bossbar:
+  isEnabled: true
+  onlyInLobbyWorld: true
+  Color: blue
+  Text: '&b&lSimpleLobby'
 Commands:
   SpawnTeleport: true
 
