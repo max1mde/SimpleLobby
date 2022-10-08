@@ -27,6 +27,7 @@ simplelobby.cmd
 
 ```java
 Config:
+  Config:
   TeleportOnJoin: true
   DisableBlockBreak: true
   DisableBlockPlace: true
@@ -37,6 +38,8 @@ Config:
   LeaveMessageB: true
   FireworkOnJoin: true
   TeleportOnRespawn: true
+  DisableHunger: true
+  DisableWeatherChange: true
 Messages:
   WelcomeMessage: '&aWelcome %player%'
   JoinMessage: '&a[+] &6%player% joined the server'
@@ -46,6 +49,24 @@ Messages:
   PlayerHitMessage: '&cPVP is here disabled!'
   Prefix: '&bSimpleLobby '
   SpawnTeleportMessage: '&aTeleported to spawn!'
+Scoreboard:
+  isEnabled: true
+  onlyInLobbyWorld: true
+  Title: '&b&lSimpleLobby'
+  line0: ' '
+  line1: '&aWelcome %player%'
+  line2: ' '
+  line3: ''
+  line4: 'Change the text in:'
+  line5: '&nSimpleLobby/plugins/config.yml'
+  line6: ''
+  line7: ''
+  line8: ''
+  line9: ''
+  line10: '&7yourserver.net'
+Commands:
+  SpawnTeleport: true
+
 ```
  
 
