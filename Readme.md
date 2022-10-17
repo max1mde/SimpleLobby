@@ -9,6 +9,7 @@ SimpleLobby is a easy to setup lobby plugin for the minecraft version 1.8 - 1.19
 /sl setspawn
 /sl reload
 /sl spawn
+/sl mutechat
 /spawn
 /hub
 /lobby
@@ -20,7 +21,10 @@ SimpleLobby is a easy to setup lobby plugin for the minecraft version 1.8 - 1.19
 
 ```xml
 simplelobby.admin
-simplelobby.cmd
+simplelobby.mutechat
+simplelobby.setspawn
+simplelobby.reload
+simplelobby.spawn
 ```
 
 ## Config
